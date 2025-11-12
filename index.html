@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <div class="logo">Arul Sakthi</div>
+        <div class="nav-Btn" id="nav-toggle">
+          <i class="bx bx-menu-left bx-flip-horizontal menu"></i>
+        </div>
+        <div class="nav-Links" id="nav-Menu">
+          <ul>
+            <li>
+              <a href="#home" class="nav-Bar active" style="--i: 1">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-Bar active" style="--i: 2">About</a>
+            </li>
+            <li>
+              <a href="#skills" class="nav-Bar active" style="--i: 3">Skills</a>
+            </li>
+            <li>
+              <a href="#project" class="nav-Bar active" style="--i: 4"
+                >Project</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-Bar active" style="--i: 5"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="hero" id="home">
+      <!-- <div class="hero-img">
+        <img src="./assests/avatar-2024924_1920.png" />
+      </div> -->
+      <div class="hero-content">
+        <h3>Hello, I'm</h3>
+        <h1>Arul Sakthi</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          I am an aspiring Frontend Developer with basic skills in HTML5, CSS3,
+          JavaScript, and React js.<br />I enjoy creating responsive and
+          attractive web pages and I am eager to learn more.
+        </p>
+        <div class="hero-sci">
+          <a href="https://github.com/Arul-sakthi" style="--i: 6"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/arulsakthi04" style="--i: 7"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto:aas28sakthi@gmail.com" style="--i: 8"
+            ><i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+         <a href="#contact"  class="btn-box">
+          <i class="fa-solid fa-paper-plane"></i> Get in Touch
+      </a>
+        <a
+          href="./assests/Arul-Sakthi Resume.pdf"
+          class="btn-box"
+          download
+          >Download Cv</a
+        >
+      </div>
+    </section>
+    <hr />
+    <section class="about" id="about">
+      <div class="about-text">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Web Developer</h3>
+        <p>
+          <li>
+            Hi! I'm Arul Sakthi, a passionate frontend developer and recent
+            graduate. I have foundational knowledge in HTML, CSS, JavaScript,
+            and React, and I'm excited to start my career in web development.
+            <br />
+          </li>
+          <li>
+            I enjoy creating clean, responsive, and user-friendly web
+            interfaces. Through personal projects and continuous learning, I've
+            built a solid understanding of frontend development fundamentals and
+            best practices.<br />
+          </li>
+          <li>
+            I'm actively seeking opportunities to contribute to real-world
+            projects, learn from experienced developers, and grow my skills in a
+            professional environment.
+          </li>
+        </p>
+        <!-- <a href="/" class="btn-box">Read More</a> -->
+      </div>
+      <div class="about-img">
+        <img src="./assests/836.png" />
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="container1">
+        <div class="info">
+          <i class="fa-brands fa-html5" style="color: orange"></i>
+          <span>HTML</span>
+        </div>
+        <div class="info">
+          <i class="fa-brands fa-css3-alt" style="color: #147bbc"></i>
+          <span>Css</span>
+        </div>
+        <div class="info">
+          <i class="fa-brands fa-js" style="color: #ffd43b"></i>
+          <span>Javascript</span>
+        </div>
+        <div class="info">
+          <i class="fa-brands fa-react" style="color: #63e6be"></i>
+          <span>React Js</span>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="project">
+      <h2 class="heading">My Projects</h2>
+      <div class="project-box">
+        <div class="project-card calculator">
+          <img src="./assests/calculator-424564_1280.jpg " alt="" />
+          <div class="project-content">
+            <h3>calculator</h3>
+            <p>
+              Developed a responsive calculator using HTML, CSS, and JavaScript
+              that performs basic arithmetic operations with a clean UI and
+              real-time interactivity.
+            </p>
+            <a
+              href="https://github.com/Arul-sakthi/Calculator.git"
+              target="_blank"
+              class="project-btn"
+              ><i class="fa-brands fa-github fa-beat"></i> Code</a
+            >
+          </div>
+        </div>
+        <div class="project-card Todo">
+          <img src="./assests/todo-lists-5238324_1280.jpg" alt="" />
+          <div class="project-content">
+            <h3>Todo List</h3>
+            <p>
+              A functional todo list application with add, delete, and mark as
+              complete features. Built to practice DOM manipulation and event
+              handling.
+            </p>
+
+            <a
+              href="https://github.com/Arul-sakthi/Project.git"
+              class="project-btn"
+              target="_blank"
+              ><i class="fa-brands fa-github fa-beat"></i> Code</a
+            >
+          </div>
+        </div>
+        <div class="project-card e-commerce">
+          <img
+            src="./assests/133967.jpg"
+            alt="e-commerce"
+            style="max-height: 230px"
+          />
+          <div class="project-content">
+            <h3>E-Commerce</h3>
+            <p>
+              A modern e-commerce platform built with React featuring product
+              listing, shopping cart functionality, and responsive design.
+              Includes component-based architecture and state management.
+            </p>
+            <a
+              href="https://github.com/Arul-sakthi/E-Commerce.git"
+              class="project-btn"
+              target="_blank"
+              ><i class="fa-brands fa-github fa-beat"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card portfolio">
+          <img
+            src="./assests/movie.jpg"
+            alt="Movie app"
+            
+          />
+          <div class="project-content">
+            <h3>Movie App</h3>
+            <p>
+              A dynamic Movie Explorer web application built with React,
+              featuring movie listings fetched from the TMDB API. Users can
+              browse popular, top-rated, and upcoming movies and search for any
+              movie instantly. The interface is fully responsive with a clean
+              and modern UI.
+            </p>
+            <a
+              href="https://github.com/Arul-sakthi/Movie-App.git"
+              class="project-btn"
+              target="_blank"
+              ><i class="fa-brands fa-github fa-beat"></i> Code</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card portfolio">
+          <img src="./assests/photo-1711599813951-89297e6201a8.jpg" alt="" />
+          <div class="project-content">
+            <h3>Portfolio</h3>
+            <p>
+              My personal portfolio website showcasing my skills, projects, and
+              contact information. Designed with a modern, clean aesthetic and
+              fully responsive layout.
+            </p>
+            <a
+              href="https://github.com/Arul-sakthi/Project.git"
+              class="project-btn"
+              target="_blank"
+              ><i class="fa-brands fa-github fa-beat"></i> Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Get in Touch</h2>
+
+      <form name="submit-to-google-sheet">
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Your Name" required />
+          <input type="email" name="Email" placeholder="Your Email" required />
+        </div>
+        <textarea
+          name="Message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button value="Send Message" class="btn-box">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="" style="--i: 6"><i class="fa-brands fa-github"></i></a>
+        <a href="" style="--i: 7"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="" style="--i: 8"><i class="bx bxs-envelope"></i></a>
+      </div>
+      <p class="copyright">&copy;Arul Sakthi - All Rights Reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
